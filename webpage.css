@@ -1,0 +1,129 @@
+/* Puri website ki basic styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* First Page */
+
+.home-page {
+    background-color: black;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+h1 {
+    color: crimson;
+
+    font-size: 100px;
+    font-weight: bold;
+
+    border: 4px solid crimson;
+
+    padding: 20px 40px;
+
+    border-radius: 15px;
+
+    text-shadow:
+        0 0 10px crimson,
+        0 0 20px crimson;
+
+    margin-bottom: 40px;
+}
+
+
+/* ENTER Button */
+
+.enter-btn {
+    display: inline-block;
+
+    background-color: #0066ff;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 45px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    border-radius: 10px;
+
+    border: 2px solid white;
+
+    transition: 0.3s;
+}
+
+
+.enter-btn:hover {
+    background-color: white;
+    color: #0066ff;
+
+    transform: scale(1.1);
+
+    box-shadow: 0 0 20px #0066ff;
+}
+
+
+/* Second Page */
+
+.second-page {
+    background-color: #050505;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+
+
+.quote-box {
+    width: 80%;
+    max-width: 800px;
+
+    text-align: center;
+
+    border: 2px solid #00ff88;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 20px #00ff88;
+}
+
+
+.quote-box h2 {
+    color: #00ff88;
+
+    font-size: 35px;
+
+    margin-bottom: 25px;
+}
+
+
+.quote-box p {
+    color: white;
+
+    font-size: 22px;
+
+    line-height: 1.6;
+}
+
